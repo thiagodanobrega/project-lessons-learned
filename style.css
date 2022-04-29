@@ -1,0 +1,151 @@
+/* Global ======================== */
+* {
+  margin: 0;
+}
+
+p,
+h1,
+h2 {
+  color: #3d495c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Cores ========================
+verde escuro #036b52
+verde claro #2fc18c
+font #3d495c
+borda #cacaca
+*/
+
+/* Header ======================== */
+#cabecalho {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.logo {
+  display: inline-block;
+  margin: 25px 30px;
+}
+
+.logo h1 {
+  color: #000;
+}
+
+.menu {
+  float: right;
+  margin: 10px 30px;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 20px;
+  background-color: #036b52;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Container ======================== */
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 150px;
+}
+
+#container {
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+}
+
+.idContainer {
+  text-align: center;
+}
+
+.idContainer h1 {
+  font-size: 2.5rem;
+}
+
+.idContainer a img {
+  width: 20px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.lado-esquerdo {
+  width: 450px;
+  padding: 20px;
+  margin-top: 50px;
+  line-height: 1.5em;
+  text-align: justify;
+  display: inline-block;
+}
+
+.lado-direito {
+  background-color: #036b52;
+  border-radius: 50px 0 px 50px 0;
+  padding: 20px;
+  width: 250px;
+  margin-top: 50px;
+  line-height: 1.5em;
+  display: inline-block;
+  float: right;
+}
+
+.lado-direito p {
+  color: white;
+}
+
+.lessons {
+  display: inline-block;
+  margin: 30px 50px;
+  color: #3d495c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lessons.learned {
+  margin: 0 50px;
+}
+
+/* Table ======================== */
+table {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+table th,
+table td {
+  color: #3d495c;
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption {
+  margin: 20px;
+}
+
+/* Footer ======================== */
+#rodape {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  border-top: 1px solid #cacaca;
+}
+
+#rodape p {
+  color: #969697;
+}
