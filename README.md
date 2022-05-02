@@ -24,13 +24,4 @@ Nesse projeto, fui capaz de:
   cd src/
   npm install
   ``` 
-
-## 🧪 Executando os testes
-
-Para rodar todos os testes:
-
-  ```
-  npm test
-  ```
-  
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+ 
